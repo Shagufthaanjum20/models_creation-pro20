@@ -7,6 +7,6 @@ admin.site.register(topic)
 
 admin.site.register(webpage)
 
-admin.site.register(AccessRecords)
+admin.site.register(accessRecords)
 
 

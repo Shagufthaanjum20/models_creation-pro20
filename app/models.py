@@ -12,7 +12,7 @@ class webpage(models.Model):
 
     def __str__(self):
         return self.name
-class AccessRecords(models.Model):
+class accessRecords(models.Model):
     name=models.ForeignKey(webpage,on_delete=models.CASCADE)
     date=models.DateField()
     author=models.CharField(max_length=100)

@@ -22,5 +22,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('insert_topic/',insert_topic,name='insert_topic'),
     path('insert_webpage/',insert_webpage,name='insert_webpage'),
-    path('insert_Ac/',insert_Ac,name='insert_Ac'),
-]
+    path('display_topic/',display_topic,name='display_topic'),
+    path('display_webpages/',display_webpages,name='display_webpages'),
+     path('display_access/',display_access,name='display_access'),
+    
+]    
+
